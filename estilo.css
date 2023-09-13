@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.topo {
+    background-color: #604829;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.topo img {
+    width: 7%;
+    margin-left: 5%;
+}
+
+.topo, .navegacao {
+    color: #c4a47c;
+    margin-right: 10%;
+}
+
+.topo a {
+    color: #c4a47c;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 4px 1px black;
+}
+
+.banner {
+    display: flex;
+    height: 100vh;
+    background: url(./img/parallax-imagem1.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 75px;
+    font-family: 'Fraunces', serif;
+    margin: 0 auto;
+    color: white;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+    color: #c4a47c;
+}
+
+.imagemfundo2 h3 {
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    width: 500px;
+    background-color: #604829;
+    color: white;
+    font-weight: normal;
+    font-style: italic;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.imagemfundo3 h3 {
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    width: 500px;
+    background-color: #604829;
+    color: white;
+    font-weight: normal;
+    font-style: italic;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+.imagemfundo2 {
+    background: url(./img/parallax-imagem2.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 50vh;
+    display:flex;
+    justify-content: center;
+}
+
+.imagemfundo3 {
+    background: url(./img/parallax-imagem3.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 50vh;
+    display:flex;
+    justify-content: center;
+}
+
+.sobre {
+    padding: 80px 0px;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;   
+}
+
+.sobre p {
+    text-align: justify;
+    padding: 0 20px;
+    line-height: 25px;
+    color: #666;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(./img/parallax-imagem4.png) no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.contatos h2 {
+    text-align: center;
+    width: 500px;
+    background-color: #604829;
+    color: white;
+    font-weight: normal;
+    word-spacing: 5px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 3%;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.listacontatos {
+    background-color: #604829;
+    font-size: 15px;
+    width: 500px;
+    color: #fff;
+    text-align: center;
+    margin-top: 2%;
+    height: 20vh;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 3px 2px black;
+    font-family: 'Fraunces', serif;
+}
+
+.horarios {
+    background: url(./img/cafeteria.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 85vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.horarios h2 {
+    margin-top: -5%;
+    color: #fff;
+
+}
+
+.listahorario {
+    width: 768px;
+    margin-top: 5%;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none !important;
+    display: flex;
+    flex-direction: column
+}
+
+li {
+    width: 768px;
+   display: flex;
+   text-align: justify;
+   justify-content: space-between;
+    
+}
+
+hr{
+    width: 65%;
+    margin-right: 18px;
+    text-align: center;
+}
+
+.listahorario h3 {
+    width: 100px;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.listahorario p {
+    width: 100px;
+    font-size: 15px;
+    color: #acacac;
+    font-family: 'Lato', sans-serif;
+}
+
+span {
+    color: #c4a47c;
+    font-weight: bold;
+}
+
+.setaparacima a {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 60px;
+    right: 60px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+    font-family: 'Lato', sans-serif;
+}
+
